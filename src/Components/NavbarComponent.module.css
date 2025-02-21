@@ -1,0 +1,7 @@
+.tech-green {
+    color: rgb(62, 241, 62);
+}
+
+.tech-green:hover {
+    color: rgb(216, 255, 216);
+}

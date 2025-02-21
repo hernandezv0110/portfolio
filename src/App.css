@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  padding-top: 70px; /* Ensures navbar doesn’t overlap content */
+  background-color: rgb(0, 0, 0) !important; /* Overwrites any gray */
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
