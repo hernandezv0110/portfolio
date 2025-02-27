@@ -1,3 +1,14 @@
 .AboutMe {
     min-height: 100vh;
 }
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.white-text {
+    color: white;
+}

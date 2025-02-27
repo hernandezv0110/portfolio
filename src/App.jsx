@@ -6,6 +6,9 @@ import "./App.css";
 import NavbarComponent from "./Components/NavbarComponent";
 import Home from "./Components/Home";
 import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
 
 function App() {
   const aboutRef = useRef(null);
@@ -34,6 +37,9 @@ function App() {
       />
       <Home />
       <AboutMe aboutRef={aboutRef} />
+      <Projects projectsRef={projectsRef} />
+      <Resume resumeRef={resumeRef} />
+      <Contact contactRef={contactRef} />
     </div>
   );
 }
