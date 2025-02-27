@@ -9,4 +9,5 @@
 
 .tech-green:hover {
     color: rgb(216, 255, 216);
+    border: 2px solid rgb(216, 255, 216);
 }

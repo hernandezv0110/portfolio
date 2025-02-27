@@ -3,7 +3,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import styles from "./NavbarComponent.module.css";
 
-function NavbarComponent() {
+function NavbarComponent({
+  aboutRef,
+  projectsRef,
+  resumeRef,
+  contactRef,
+  scrollToSection,
+}) {
   return (
     <Navbar
       bg="dark"
@@ -16,16 +22,28 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto d-flex gap-3">
-            <Nav.Link href="/projects" className={styles["tech-green"]}>
+            <Nav.Link
+              onClick={() => scrollToSection(aboutRef)}
+              className={styles["tech-green"]}
+            >
               About Me
             </Nav.Link>
-            <Nav.Link href="/projects" className={styles["tech-green"]}>
+            <Nav.Link
+              onClick={() => scrollToSection(projectsRef)}
+              className={styles["tech-green"]}
+            >
               Projects
             </Nav.Link>
-            <Nav.Link href="/resume" className={styles["tech-green"]}>
+            <Nav.Link
+              onClick={() => scrollToSection(resumeRef)}
+              className={styles["tech-green"]}
+            >
               Resume
             </Nav.Link>
-            <Nav.Link href="/contact" className={styles["tech-green"]}>
+            <Nav.Link
+              onClick={() => scrollToSection(contactRef)}
+              className={styles["tech-green"]}
+            >
               Contact
             </Nav.Link>
           </Nav>

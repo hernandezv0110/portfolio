@@ -2,7 +2,9 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div
+      style={{ textAlign: "center", marginTop: "50px", marginBottom: "50px" }}
+    >
       <div
         style={{
           display: "flex",
