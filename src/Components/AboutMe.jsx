@@ -8,7 +8,7 @@ function AboutMe({ aboutRef }) {
         Hey There!
       </h1>
       <div className={styles.layout}>
-        <img src={portrait}></img>
+        <img className={styles.pic} src={portrait}></img>
         <p className={styles["white-text"]}>
           I am Victor Ivan Hernandez Barajas
         </p>

@@ -3,12 +3,21 @@
 }
 
 .layout {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
     width: 100%;
 }
 
 .white-text {
     color: white;
+}
+
+.pic {
+    max-width: 40%;
+    height: auto;
+    border: 2px solid white;
 }
