@@ -1,5 +1,10 @@
 .tech-green {
     color: rgb(62, 241, 62);
+    border-radius: 10%;
+    border: 2px solid rgb(62, 241, 62);
+    padding: 5px 10px; 
+    text-decoration: none; 
+    display: inline-block;
 }
 
 .tech-green:hover {

@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 install bootstrap
 npm install react-bootstrap
+npm install react-typed

@@ -12,7 +12,7 @@ function NavbarComponent() {
       className="shadow-sm w-100 fixed-top navbar-dark bg-dark"
     >
       <Container>
-        <Navbar.Brand href="/home">Victor Hernandez</Navbar.Brand>
+        <Navbar.Brand href="/home">Victor Hernandez Barajas</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto d-flex gap-3">
