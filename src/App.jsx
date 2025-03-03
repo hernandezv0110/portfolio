@@ -35,11 +35,13 @@ function App() {
         contactRef={contactRef}
         scrollToSection={scrollToSection}
       />
-      <Home />
-      <AboutMe aboutRef={aboutRef} />
-      <Projects projectsRef={projectsRef} />
-      <Resume resumeRef={resumeRef} />
-      <Contact contactRef={contactRef} />
+      <div className="display-sections">
+        <Home />
+        <AboutMe aboutRef={aboutRef} />
+        <Projects projectsRef={projectsRef} />
+        <Resume resumeRef={resumeRef} />
+        <Contact contactRef={contactRef} />
+      </div>
     </div>
   );
 }
