@@ -1,0 +1,35 @@
+.skills {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .skills h4 {
+    font-size: 20px;
+    color: white; 
+    margin-bottom: 15px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 10px;
+  }
+  
+  .icons div {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 15px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .icons svg {
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .icons svg:hover {
+    transform: scale(1.2); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5))
+  }

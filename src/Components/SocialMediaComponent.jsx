@@ -1,4 +1,5 @@
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import styles from "./SocialMediaComponent.module.css";
 
 function App() {
   return (
@@ -18,21 +19,21 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram style={{ color: "white" }} />
+          <FaInstagram className={styles.icon} />
         </a>
         <a
           href="https://github.com/hernandezv0110"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub style={{ color: "white" }} />
+          <FaGithub className={styles.icon} />
         </a>
         <a
           href="https://www.linkedin.com/in/victorhernandez10/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin style={{ color: "#ffffff" }} />
+          <FaLinkedin className={styles.icon} />
         </a>
       </div>
     </div>

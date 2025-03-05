@@ -7,6 +7,7 @@ import portrait from "../assets/images/portrait.png";
 import grad from "../assets/images/grad.jpg";
 import hike from "../assets/images/hike.jpg";
 import palace from "../assets/images/palace.jpg";
+import SkillsComponent from "./SkillsComponent";
 
 function AboutMe({ aboutRef }) {
   const images = [portrait, grad, hike, palace];
@@ -17,6 +18,7 @@ function AboutMe({ aboutRef }) {
   const [showMajor, setShowMajor] = useState(false);
   const [showFunFact, setShowFunFact] = useState(false);
   const [showBio, setShowBio] = useState(false);
+  const [showSkills, setShowSkills] = useState(false);
 
   const startTyping = () => {
     setTimeout(() => setShowName(true), 500);
@@ -25,6 +27,7 @@ function AboutMe({ aboutRef }) {
     setTimeout(() => setShowMajor(true), 500);
     setTimeout(() => setShowFunFact(true), 500);
     setTimeout(() => setShowBio(true), 500);
+    setTimeout(() => setShowSkills(true), 700);
   };
 
   return (
@@ -121,17 +124,17 @@ function AboutMe({ aboutRef }) {
             }}
           >
             Hi, I am a UCI recent grad located in the San Francisco Bay Area. I
-            am a recent grad looking to expand my knowledge in software
-            engineering and become an expert in front-end development. I was
-            first exposed to coding back in the day when I was obsessed with the
-            mobile game Flappy Bird. I would try to build games on Scratch which
-            eventually led me to take a CS course in high school and end up
-            majoring in Computer Science. I love the problem-solving aspect
-            involved with coding and enjoy the fact that I learn something new
-            every time I code.
+            am looking to expand my knowledge in software engineering and become
+            an expert in front-end development. I was first exposed to coding
+            back in the day when I was obsessed with the mobile game Flappy
+            Bird. I would try to build games on Scratch which eventually led me
+            to take a CS course in high school and end up majoring in Computer
+            Science. I love the problem-solving aspect involved with coding and
+            enjoy the fact that I learn something new every time I code.
           </motion.h5>
         )}
       </div>
+      {showSkills && <SkillsComponent />}
     </div>
   );
 }
