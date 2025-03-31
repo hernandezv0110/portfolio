@@ -10,7 +10,7 @@ import palace from "../assets/images/palace.jpg";
 import SkillsComponent from "./SkillsComponent";
 
 function AboutMe({ aboutRef }) {
-  const images = [portrait, grad, hike, palace];
+  const images = [portrait, grad];
 
   const [showName, setShowName] = useState(false);
   const [showPronouns, setShowPronouns] = useState(false);

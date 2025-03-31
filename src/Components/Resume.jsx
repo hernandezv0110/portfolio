@@ -1,6 +1,6 @@
 import styles from "./Resume.module.css";
 
-function Projects({ resumeRef }) {
+function Resume({ resumeRef }) {
   return (
     <div className={styles.Resume}>
       <h1 ref={resumeRef} className={styles["white-text"]}>
@@ -11,4 +11,4 @@ function Projects({ resumeRef }) {
   );
 }
 
-export default Projects;
+export default Resume;

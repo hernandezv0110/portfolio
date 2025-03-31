@@ -5,3 +5,15 @@
 .white-text {
     color: white;
 }
+
+
+.ProjectCarousel {
+    width: 80%;
+    margin: auto;
+}
+  
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
