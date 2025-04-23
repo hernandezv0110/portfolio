@@ -1,19 +1,12 @@
 .Projects {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
-
-
-.ProjectCarousel {
-    width: 80%;
-    margin: auto;
-}
-  
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ProjectList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
