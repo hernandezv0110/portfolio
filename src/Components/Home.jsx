@@ -5,7 +5,7 @@ import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <div className={styles.Home}>
+    <div id="home" className={styles.Home}>
       <h1 className="white-text">
         Hi, I'm{" "}
         <span className="tech-green">
